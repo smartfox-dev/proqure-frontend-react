@@ -1,0 +1,136 @@
+.shop__contianer {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.shoptreeview {
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.outermostItems {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.outermostItems td {
+  border: 1px solid #ccc;
+  padding: 15px 10px;
+}
+
+.totalfilters {
+  margin-top: 40px;
+}
+
+.underline {
+  position: relative;
+}
+
+.underline::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  border-bottom: 2px solid #04aa6d; /* Adjust the color and thickness as needed */
+}
+
+.totalfilterheader {
+  border-bottom: 1px solid #cccccc;
+}
+.filtersbrand {
+  margin-top: 20px;
+}
+.filtersbrand label {
+  margin-bottom: 0;
+  height: 30px;
+}
+.bnpltotal {
+  margin-top: 10px;
+  display: inline-grid;
+}
+.totalbnplheader {
+  margin-top: 30px;
+  border-bottom: 1px solid #cccccc;
+}
+.filters-showmore {
+  display: flex;
+  margin-top: 10px;
+  color: black;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.filters-showmore:hover {
+  cursor: pointer;
+}
+.bnpltitle {
+  font-family: "InterBold";
+  margin-top: 13px;
+  margin-bottom: 15px;
+  color: #000;
+  font-size: 19px;
+  font-style: normal;
+  line-height: normal;
+}
+.bnpltotal label {
+  margin-bottom: 0;
+  height: 30px;
+}
+.slideprice {
+  font-family: "InterBold";
+}
+
+.slideapply {
+  font-family: "InterBold";
+  color: #47c194;
+}
+.slidebottom {
+  color: #a8a8a8;
+}
+.treeviewbrowse {
+  padding: 20px 15px !important;
+  color: black;
+  font-size: 19px;
+  font-style: normal;
+  font-family: "InterBold";
+  line-height: normal;
+}
+.sidebarfilterbutton {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  background-color: #04aa6d;
+  outline: none;
+  border: none;
+  font-family: "Inter";
+}
+.sidebarfilterbutton:hover {
+  background-color: #0dbd7c;
+}
+.moneyslider {
+  color: #0dbd7c !important;
+}
+.brandtitle {
+  color: #000;
+  font-size: 19px;
+  font-style: normal;
+  font-family: "InterBold";
+  line-height: normal;
+}
+.brandoptions {
+  display: inline-grid;
+  margin-top: 10px;
+}
+@media screen and (max-width: 860px) {
+  .shopcontainer {
+    overflow-x: scroll;
+  }
+}

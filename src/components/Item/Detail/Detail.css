@@ -1,0 +1,379 @@
+/* modal vertial start */
+.bnpvertialcontainter {
+  display: flex;
+}
+.bnpcontainerlect {
+  margin-top: 2rem;
+}
+.bnpcontainerright {
+  margin-top: 2rem;
+}
+.bnpcontainerlect img {
+  width: 35px;
+}
+.bnprow {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 18px;
+  margin-bottom: 56px;
+}
+.bnpmodalbuttonroot {
+  text-align: center;
+}
+.bnpmodalbutton {
+  background: #04aa6d;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 7px 34px;
+  border-radius: 100px;
+  width: 85%;
+}
+.bnpmodalbutton:hover,
+.bnpmodalbutton:focus,
+.bnpmodalbutton:focus-visible {
+  outline: none !important;
+  border: none !important;
+}
+/* modal vertial end */
+.bnmodalheader {
+  margin-top: 1.5rem;
+  margin-left: 10px;
+  font-size: 23px;
+  font-family: "Inter";
+}
+.bnmodalcontent {
+  margin-left: 10px;
+  font-size: 19px;
+  margin-top: 0.5rem;
+  line-height: 1.2;
+}
+.bnmodalimg img {
+  width: 150px;
+}
+
+.bnmodalbody {
+  border: none !important;
+  outline: none !important;
+}
+.bnmodalbody:hover,
+.bnmodalbody:visited,
+.bnmodalbody:focus-visible {
+  border: none !important;
+  outline: none !important;
+}
+.bnmodalclose {
+  position: absolute;
+  right: 25px;
+}
+.bnmodalclose:hover {
+  cursor: pointer;
+}
+.bnmodalclose svg {
+  font-size: 30px;
+}
+
+.detailaddbutton {
+  background-color: #04aa6d;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  margin: 1px;
+  align-self: center;
+  display: flex;
+  font-size: 13px;
+  margin-right: 15px;
+}
+.detailaddbutton:hover {
+  background-color: #0f9664;
+}
+.detailbuynow {
+  background-color: white;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #04aa6d;
+  padding: 8px 28px;
+  margin: 1px;
+  align-self: center;
+  display: flex;
+  font-size: 13px;
+  color: #04aa6d;
+  font-family: "InterBold";
+  margin-right: 20px;
+}
+.detailbuynow:hover {
+  background-color: rgb(241, 241, 241);
+}
+.detailwishletter {
+  color: #9f9f9f;
+  margin-left: 7px;
+  align-self: center;
+  display: flex;
+}
+.product__detail__rating {
+  display: flex;
+  align-items: center;
+}
+.horizontal-line {
+  border: none;
+  height: 1px;
+  background-color: #e6e6e6;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.vertical-line {
+  height: 15px; /* Adjust the height as needed */
+  width: 1px;
+  background-color: #a1a1a1;
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+.detailrating span label {
+  margin-bottom: 0;
+  display: flex;
+}
+.detailfive {
+  display: flex;
+  align-items: center;
+  color: #a1a1a1;
+}
+.detail-status {
+  color: #a1a1a1;
+}
+.detail-status-value {
+  color: #009900;
+}
+.status {
+  font-size: 14px; /* Adjust the font size as needed */
+  font-family: "InterBold";
+}
+.product__detail__rating {
+  margin-top: 1rem;
+}
+.detailtopimg {
+  width: 100%;
+  height: auto;
+}
+.detailtopimg:hover {
+  cursor: pointer;
+}
+.product__detail__container {
+  width: 100%;
+  min-width: 300px;
+  height: 100%;
+  display: flex;
+}
+
+.product__form {
+  flex-direction: column;
+}
+
+.product__detail {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product__main__detail {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.product__name__main {
+  align-self: flex-start;
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: "InterBold";
+  color: black;
+  margin-top: 1.5rem;
+}
+
+.product__detail__description {
+  justify-content: flex-start;
+  align-self: flex-start;
+  width: 100%;
+  height: 30%;
+  font-size: 1.2rem;
+  display: inline-block;
+  border-radius: 3px;
+  font-family: "InterBold";
+  color: black;
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin-bottom: 4px;
+  padding: 7px 6px 7px 0;
+}
+
+.product__color {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 60px;
+  font-size: 1.2rem;
+}
+
+.product-color-label {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+}
+.detailcallall {
+  margin-bottom: 10px;
+}
+.detailcall {
+  margin-top: 1rem;
+  color: #9f9f9f;
+}
+.detailclick {
+  color: rgb(43, 41, 41);
+  font-family: "Inter";
+}
+.product-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.product__price__detail {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: black;
+  margin-top: 1rem;
+}
+
+.product__quantity__and__size {
+  width: 50%;
+  min-width: 220px;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -9px;
+}
+
+.product__quantity {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.product__size {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collect__item__actions {
+  height: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.add__cart__add__wish {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.add__cart {
+  width: 100%;
+  height: 100px;
+  bottom: 0%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.add__to__cart__button {
+  width: 220px;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  background-color: #ffe26e;
+  border-color: #ffe26e;
+  border-style: dashed;
+  font-family: "InterBold";
+}
+
+.add__to__cart__button:hover {
+  background-color: #e8ce67;
+  border-color: #e8ce67;
+}
+
+.buy__now {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy__now__button {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buy__button {
+  width: 220px;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  background-color: #000000;
+  font-family: "InterBold";
+  border-style: none;
+  color: #ffffff;
+}
+
+.buy__button:hover {
+  background-color: #000000d1;
+}
+
+@media screen and (max-width: 860px) {
+  .product__detail__container {
+    margin-top: 40px;
+  }
+  .add__cart__add__wish {
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .detail__and__carousel__container {
+    display: inline !important;
+  }
+  .product__detail__container {
+    display: contents;
+  }
+  .product__detail {
+    margin: 25px;
+    border-radius: 10px;
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,107 @@
+.paginationrange {
+  padding: 0 60px 60px 60px;
+  justify-content: center;
+  display: flex;
+  margin-left: 330px;
+}
+.custompagination ul li {
+  padding: 0 1px;
+}
+.custompagination ul li button {
+  border: 2px solid #04aa6d;
+  color: #04aa6d;
+}
+.shop__category__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.shop__category__head {
+  align-self: center;
+}
+.shop__category__subhead {
+  align-self: center;
+  width: 100%;
+  text-align: center;
+}
+.shop__category__subhead h2 {
+  font-family: "InterBold";
+  display: inline-block;
+}
+.shop__category__subhead h2:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 -2px 0 0 white inset, 0 -3px 0 0 #091e42 inset;
+}
+.shop__category__header {
+  width: 90%;
+  height: 150px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.shop__category__subheader {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.shop__category__header_small {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.shop__category__header__big {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+.shop__category__header__line {
+  width: 260px;
+  height: 6px;
+  background-color: #ffe26e;
+  align-self: flex-start;
+  border-radius: 25px;
+}
+
+.shop__category__subheader__line {
+  width: 100%;
+  height: 6px;
+  background-color: #ffe26e;
+  align-self: flex-start;
+  border-radius: 25px;
+}
+
+.shop__category__card__container {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.shop__category__product__card {
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.shop__category__product__card > * {
+  margin: 50px 10px;
+}
+/* Responsive styles */
+@media screen and (max-width: 980px) {
+  .paginationrange{
+    margin-left: auto;
+  }
+}

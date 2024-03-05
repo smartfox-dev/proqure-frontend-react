@@ -1,0 +1,167 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.progressclass{
+  padding: 3px 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: #04aa6d;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  font-family: Inter;
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+.confirmdialog {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter !important;
+}
+
+button {
+  border: 0;
+  outline: 0;
+}
+
+.confirm {
+  width: 360px;
+  background: #fff;
+  transition: .6s;
+  z-index: 100;
+  position: absolute;
+  left: calc(50% - 180px);
+  top: calc(35%);
+}
+
+.confirm.show {
+  top: calc(50% - 140px);
+}
+
+.confirm-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0E2431;
+  padding: 1.5rem;
+}
+
+.confirm-content h4 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  position: relative;
+}
+
+.confirm-content h4::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #04aa6d;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+}
+
+.confirm-content h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+.confirm-content p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.confirm-btns {
+  height: 30%;
+}
+
+.confirm-btns button {
+  width: 50%;
+  height: 100%;
+  background: #04aa6d;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.confirm-btns button:hover {
+  background: #049c64;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .5);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.confirm.show + .overlay {
+  display: block;
+}
+
+.button {
+  background: #4070F4;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1rem 4rem;
+}
+.pendingmodalbody:focus-visible{
+  outline: 0;
+}
+.pendingmodalimg img {
+    width: 150px;
+}
+
+.pendingmodalclose svg {
+    font-size: 30px;
+}
+.pendingmodalclose {
+    position: absolute;
+    right: 25px;
+}
+.pendingpmodalbuttonroot {
+    margin-top: 1rem;
+    text-align: center;
+}
+.pendingpcontainter{
+  margin-top: 1.5rem;
+}
+.pendingmodalbutton {
+    background: #04aa6d;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 7px 34px;
+    border-radius: 100px;
+    width: 85%;
+}
+.pendingitemrow{
+  cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+  .confirm {
+    width: 300px;
+    left: calc(50% - 150px);
+  }
+}

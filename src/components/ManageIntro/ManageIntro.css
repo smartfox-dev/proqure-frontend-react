@@ -1,0 +1,369 @@
+.py-\[60px\] {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.bg-center {
+  background-position: 50%;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-chef-gradient {
+  height: auto;
+  /* background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, .8) 97.92%, rgba(0, 0, 0, .8)), linear-gradient(180deg, rgba(0, 0, 0, .5), transparent), url(../../assets/images/chef.png); */
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-success-main {
+  --tw-text-opacity: 1;
+  color: rgb(23 151 90 / var(--tw-text-opacity));
+}
+
+.manageintro-arrow {
+  position: absolute;
+  bottom: 25px;
+}
+
+.chip-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(237 240 246 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(19 95 220 / var(--tw-text-opacity));
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  border-radius: 1.5rem;
+  padding: 12px 25px;
+  margin-left: 2rem;
+}
+
+.chip-primary h4 {
+  font-family: "Open Sans";
+}
+
+.btn-dark,
+.btn-text-white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  padding: 21px 50px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.btn-text-white {
+  --tw-text-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+
+.btn-text-white svg {
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-text-white:hover svg {
+  transform: translateX(0.5rem);
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+
+.btn-secondary {
+  background-color: rgb(227 237 253 / var(--tw-bg-opacity));
+  color: rgb(19 95 220 / var(--tw-text-opacity));
+}
+
+.btn-primary,
+.btn-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  padding: 30px 60px;
+  font-weight: 700;
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  border: none;
+  white-space: nowrap;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: rgb(227 237 253 / var(--tw-bg-opacity)) !important;
+  color: rgb(19 95 220 / var(--tw-text-opacity)) !important;
+  border: none;
+}
+
+.text-grey-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 84 103 / var(--tw-text-opacity));
+}
+
+.bg-success-lighter {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 249 240 / var(--tw-bg-opacity));
+}
+
+.text-grey-900 {
+  --tw-text-opacity: 1;
+  color: rgb(16 24 40 / var(--tw-text-opacity));
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.mb-\[18px\] {
+  margin-bottom: 18px;
+}
+
+.relative {
+  position: relative;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+
+.max-w-\[303px\] {
+  max-width: 303px;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.managebutton {
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+
+.managebutton button {
+  font-size: 20px;
+}
+
+.managecontainer {
+  margin-top: 5rem;
+  display: flex;
+}
+
+.vendease {
+  color: white;
+  font-size: 1.5rem;
+  font-family: cursive;
+  margin-left: 2rem;
+  display: flex;
+}
+
+.managerow {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.managecol {
+  flex-basis: 50%;
+  padding: 2rem 1.2rem 3rem 1.2rem;
+  margin: 0.7rem;
+  border-radius: 20px;
+  outline: none;
+  color: black;
+  border: none;
+  transition: transform 0.3s ease-in;
+  position: relative;
+}
+.managecol h2 {
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-style: normal;
+  font-family: "InterBold";
+  line-height: 127.023%; /* 35.566px */
+}
+.managecol:hover {
+  transform: scale(1.03) !important;
+  cursor: pointer;
+}
+
+.managecol span {
+  color: black;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.023%; /* 30.145px */
+}
+.managecol img {
+  width: 70px;
+}
+.row12 {
+  background-color: #fff3eb;
+}
+
+.row21 {
+  background-color: #e5e9fc;
+}
+
+.row22 {
+  background-color: #deeded;
+}
+
+.row11 img {
+  width: 200px;
+}
+
+.manageintro_header {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.manageintro-container {
+  margin: 7rem auto;
+}
+
+.text-success-main {
+  --tw-text-opacity: 1;
+  color: rgb(23 151 90 / var(--tw-text-opacity));
+}
+
+.managefood {
+  font-family: InterBold;
+}
+
+.manageintro__header__big {
+  width: 50%;
+  font-family: "InterBold";
+  color: #000;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 127.023%; /* 57.16px */
+}
+
+.manageintro__sub__header {
+  margin-top: 26px;
+  max-width: 57%;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 137.023%; /* 32.885px */
+}
+
+@media (min-width: 1400px) {
+  .manageintro_header {
+    max-width: 1265px;
+  }
+}
+@media (min-width: 768px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .manageintro__header__big {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .manageintro__sub__header {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .vendease {
+    font-size: 1.1rem;
+  }
+  .managecontainer {
+    display: flow-root;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .managerow {
+    display: flow-root;
+  }
+
+  .flex-col {
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .btn-secondary {
+    margin-right: 0px !important;
+  }
+  .btn-text-white {
+    margin-top: 3rem !important;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .managecontainer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

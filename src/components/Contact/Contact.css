@@ -1,0 +1,252 @@
+.headersay {
+  width: 45px;
+  margin-right: 10px;
+}
+.solutions_item4colom {
+  width: 25%;
+  float: left;
+}
+
+.contactus_sec {
+  /* background-color: #F6FAFF; */
+  padding: 120px 0px;
+  position: relative;
+}
+
+.contactus_sec::before {
+  content: "";
+  position: absolute;
+  background-color: #f6faff;
+  width: 100%;
+  height: 445px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.contact_wrapper {
+  box-sizing: border-box;
+  background-color: #fff;
+  overflow: auto;
+  padding: 80px;
+  box-shadow: 0px 21px 17px 1px rgb(0 0 0 / 10%);
+}
+
+.contact_wrapper .col_left {
+  width: 50%;
+  float: left;
+}
+
+.contact_wrapper .col_right {
+  width: 40%;
+  float: right;
+  margin-top: 140px;
+}
+.checkout_form_droup {
+  width: 100%;
+}
+.contact_wrapper .heading h1 {
+  font-family: "Inter";
+  font-size: 32px;
+  color: #04aa6d;
+  margin: 0;
+}
+
+.contact_wrapper .heading p {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #222222;
+  line-height: 26px;
+  margin: 0;
+  padding: 10px 0px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact_form {
+  margin-top: 40px;
+}
+
+.form_droup input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 15px;
+  height: 50px;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.form_droup input:focus {
+  border: 1px solid #6abb9d;
+  box-shadow: 0px 0px 5px 1px rgb(133 239 189 / 50%);
+}
+
+.form_droup button {
+  background: #04aa6d;
+  font-size: 17px;
+  color: #fff !important;
+  border-radius: 6px;
+  padding: 15px 25px;
+  margin-right: 10px;
+  border: 0;
+  cursor: pointer;
+}
+.checkout_top_lable {
+  font-family: "InterBold";
+  color: #000;
+  font-size: 17px;
+  font-style: normal;
+  line-height: normal;
+}
+.checkout_form_droup {
+}
+.form_droup textarea {
+  box-sizing: border-box;
+  width: 100%;
+  /* background: #fafafa; */
+  border: 1px solid #d5d5d5;
+  padding: 5px 15px;
+  height: 200px;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.form_droup textarea:focus {
+  border: 1px solid #6abb9d;
+  box-shadow: 0px 0px 5px 1px rgb(133 239 189 / 50%);
+}
+
+.form_droup input::placeholder {
+  color: #444444;
+}
+
+.left_input {
+  float: left;
+  width: 48% !important;
+}
+
+.right_input {
+  float: right;
+  width: 48% !important;
+}
+
+.contect_slot {
+  padding-bottom: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 0.5px solid #b1b0b0;
+  border-radius: 5px;
+}
+
+.contect_slot:last-child {
+  padding-bottom: 10px;
+}
+
+.contect_slot h4 {
+  font-family: "Inter";
+  font-size: 18px;
+  color: #04aa6d;
+  margin: 0;
+  font-weight: normal;
+}
+
+.contect_slot span {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.social_links {
+  margin-top: 8px;
+  display: flex;
+}
+.social_links svg {
+  margin: auto;
+}
+.contect_slot .social_links a {
+  font-size: 25px;
+  line-height: 41px;
+  color: #04aa6d;
+  text-decoration: none;
+  margin-right: 8px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.contect_slot .social_links a:hover {
+  background: #b5c9b6;
+}
+.sendmessage span {
+  transition: all 0.3s ease-in-out;
+}
+.sendmessage:hover span {
+  transform: translateX(0.45rem);
+}
+
+.contact_wrapper .heading h3 {
+  font-size: 14px;
+  max-width: 400px;
+  margin-top: 2rem;
+  width: 100%;
+  text-align: left;
+}
+
+@media screen and (max-width: 767px) and (min-width: 200px) {
+  .contactus_sec {
+    padding: 60px 0px;
+  }
+
+  .contact_wrapper {
+    padding: 50px 20px;
+  }
+
+  .contact_wrapper .col_left {
+    width: 100%;
+    float: none;
+  }
+
+  .contact_wrapper .col_right {
+    width: 100%;
+    float: none;
+    margin-top: 70px;
+  }
+
+  .contact_wrapper .heading h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .contact_wrapper .heading h3 {
+    font-size: 14px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .left_input {
+    float: none;
+    width: 100% !important;
+  }
+
+  .right_input {
+    float: none;
+    width: 100% !important;
+  }
+}

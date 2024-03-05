@@ -1,0 +1,98 @@
+.second-section {
+  margin: 50px 5px;
+}
+.second-section table {
+  width: 100%;
+}
+.second-section-tbody {
+  border: 1px solid grey;
+}
+.second-section-tbody td {
+  border: 1px solid #cecccc;
+  text-align: center;
+  align-self: center;
+  padding: 20px 0px;
+  width: 180px;
+}
+.second-section-11 img {
+  width: 150px;
+}
+.second-section-11 {
+  transition: transform 0.5s;
+}
+.second-section-11:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.second-section-productname {
+  font-family: "InterBold";
+  align-self: center;
+  color: #000;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  line-height: normal;
+}
+.second-section-product-quantity {
+  align-self: center;
+  color: #282828;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.second-section-00 {
+  width: 80px;
+}
+.second-section-00-parent {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.5s;
+}
+.second-section-00-parent:hover {
+  cursor: pointer;
+  /* transform: scale(1.05); */
+}
+.second-section-subcontent {
+  display: inline-grid;
+  margin-left: 15px;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .second-section-table {
+    display: block;
+    width: 100%;
+  }
+
+  .second-section-tbody {
+    display: block;
+  }
+
+  .second-section-tbody tr {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .second-section-11,
+  .second-section-tbody td {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+  }
+
+  .second-section-11 img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .second-section-subcontent {
+    margin-top: 10px;
+  }
+}

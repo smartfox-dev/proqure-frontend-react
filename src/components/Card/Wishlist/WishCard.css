@@ -1,0 +1,67 @@
+.wishcard {
+  width: 95%;
+  min-height: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: #e6f7f2;
+  border-radius: 5px;
+  margin: 5px auto;
+  border: 1px solid #bfc6cc;
+  padding: 5px;
+}
+
+/* .wishcard > div {
+    width: 110px;
+    height: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.wish__item__image {
+  width: 110px;
+  height: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wish__image {
+  width: 90px;
+  height: 80px;
+}
+
+.wish__item__name {
+  height: auto;
+  text-align: left;
+  font-size: 15px;
+  font-family: "InterBold";
+  color: black;
+}
+
+.wish__item__price {
+  height: auto;
+  font-size: 14px;
+  color: #d32f2f;
+}
+
+.add__to__cart {
+  width: auto;
+  height: 100%;
+  float: left;
+}
+
+.wish__remove__item__icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: -9px;
+}

@@ -1,0 +1,362 @@
+.featured__categories__container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  min-height: 25rem;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+.featured___button00 {
+  top: 50%;
+}
+
+.featured___button {
+  top: 60%;
+}
+.hover__img:hover .center-button {
+  opacity: 1;
+}
+
+.featureditembottom {
+  display: flex;
+  justify-content: space-between;
+}
+.featured__categories {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.featured__categories__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.featured__header__big {
+  font-family: "InterBold";
+  font-size: 20px;
+}
+
+.featured__header__small {
+  margin: auto 20px;
+}
+
+.featured__categories__header__line {
+  width: 200px;
+  height: 6px;
+  background-color: #ffe26e;
+  align-self: center;
+  border-radius: 25px;
+}
+
+.featured__categories__card__container {
+  margin: 20px auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.three-featured-items {
+  display: flex;
+}
+
+.featured-vertical-line {
+  width: 1px;
+  background-color: #eee;
+  margin: auto;
+  height: 400px;
+  align-self: center;
+}
+
+.firstcategory__card__card {
+  height: 530px;
+  width: 350px;
+  position: relative;
+  border-radius: 30px;
+  border: 1px solid #58c69e;
+  padding: 15px;
+}
+.category__card__card {
+  height: 420px;
+  width: 250px;
+  margin: 20px;
+  position: relative;
+}
+.background__card__card:hover {
+  border: 2px solid red;
+}
+.dealoftheday {
+  margin-left: 10px;
+  color: black;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.188%; /* 24.638px */
+}
+.dealoff {
+  position: absolute;
+  width: 100px;
+  right: 0;
+  background: #04aa6d;
+  color: white;
+  top: 0;
+  height: 53px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+.dealofftext {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 130.023%; /* 19.503px */
+  letter-spacing: -0.825px;
+}
+.category__card {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstcategory__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+.firstcategory__image > img {
+  max-width: 60%;
+  height: auto;
+  transition: 1s;
+}
+.firstcategory__card__detail {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  bottom: 0%;
+  color: BLACK;
+  display: block;
+}
+
+.firstcategory__name {
+  display: flex;
+  margin-left: 18px;
+  font-size: 1.2rem;
+  font-family: "InterBold";
+  color: black;
+}
+
+.firstcategory__name span {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-family: "InterBold";
+  line-height: 123.188%; /* 18.478px */
+}
+
+.firstcategory__price {
+  text-align: center;
+  margin-top: 1rem;
+}
+.firstcategory__price .fprice {
+  font-family: "InterBold";
+  color: #04aa6d;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+.sprice {
+  position: relative;
+  display: inline-block;
+  color: #c4c4c4;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.timedot {
+  height: 60px;
+}
+.sprice::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  width: 100%;
+  height: 1px;
+  background-color: #c4c4c4;
+  transform: translateY(50%);
+}
+.firstcategory__timehead {
+  margin-top: 1rem;
+  text-align: center;
+}
+.firstcategory__timehead span {
+  font-family: "Inter";
+}
+.firstcategory__time {
+  margin-top: 1rem;
+  font-size: 24px;
+  font-family: "InterBold";
+  justify-content: center;
+}
+.intertime {
+  width: 50px;
+  height: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 3px;
+  color: #000;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  line-height: normal;
+}
+.intertime-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intertime-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px; /* Adjust the desired spacing between elements */
+}
+
+.intertime-label {
+  font-size: 12px; /* Adjust the font size as needed */
+  margin-top: 5px; /* Adjust the spacing between the number and label */
+}
+.category__price {
+  align-self: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.category__image {
+  height: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.category__image > img {
+  max-width: 100%;
+  height: auto;
+  transition: 1s;
+}
+
+.category__card__detail {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  bottom: 0%;
+  color: BLACK;
+  display: block;
+}
+
+.category__name {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-left: 20px;
+  margin-top: 2.5rem;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.188%; /* 20.942px */
+}
+
+.category__description {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-left: 20px;
+  font-family: "InterBold";
+  margin-top: 1.1rem;
+  color: #04aa6d;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 123.188%; /* 24.638px */
+}
+
+.category__card__action {
+  width: 40%;
+  height: 80%;
+  bottom: 0%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+}
+
+.category__card__action__button {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  background-color: transparent;
+  border-color: #ffe26e;
+  border-style: solid;
+  font-family: "InterBold";
+  color: #ffe26e;
+}
+
+.guide-center-button {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease-in;
+  opacity: 0;
+  display: inline-block;
+  outline: none;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 40px 50px;
+  border: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  line-height: 1.15;
+  font-size: 25px;
+}
+
+.guide-container {
+  transition: all 0.3s ease-in;
+}
+
+@media screen and (max-width: 1240px) {
+  .featured__categories__container {
+    overflow-x: scroll;
+  }
+}

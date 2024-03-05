@@ -1,0 +1,228 @@
+.dropdown-hidden {
+  display: none !important;
+}
+.cartcontrol {
+  border: none;
+  width: 45px;
+  height: 45px;
+}
+
+.cartcontrol:hover,
+.cartcontrol:focus,
+.cartcontrol:active,
+.cartcontrol:focus-visible {
+  border: none;
+  outline: none;
+}
+.controlbar-money {
+  display: flex;
+  white-space: nowrap;
+}
+.control__bar__container {
+  height: auto;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+
+.controls__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  height: 50px;
+}
+
+.control {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.control:hover {
+  border: 0;
+}
+.control svg {
+  fill: white;
+  font-size: 20px;
+  margin-right: 8px;
+}
+.topbellbadge svg {
+  margin-right: 0px;
+}
+.user-control svg {
+  fill: white;
+  font-size: 34px;
+}
+.control .MuiBadge-root span {
+  bottom: 5px;
+  right: 13px;
+  background-color: #fed700;
+  color: black;
+}
+.control svg:hover {
+  fill: rgb(235, 238, 234);
+}
+
+/* sub dropdown */
+.subdropdownheader {
+  display: flex;
+  padding: 15px 5px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.subdropdownbottom {
+  padding: 15px 5px 5px 15px;
+  box-shadow: 0 8px 10px -5px rgb(0 0 0 / 16%), 0 16px 24px 2px rgb(0 0 0 / 11%),
+    0 6px 30px 5px rgb(0 0 0 / 10%);
+}
+.subdropspan {
+  font-family: cursive;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  padding-right: 20px;
+  color: #04aa6d;
+}
+/* wishdropdown */
+.headerdropdown {
+  position: relative;
+}
+
+.headerdropdown-button {
+  color: #fff;
+  padding: 0px 7px;
+  border: none;
+  cursor: pointer;
+}
+.headerdropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 310px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  z-index: 1;
+  top: 97%;
+  left: -140px;
+  border-radius: 8px;
+  display: none;
+}
+.headerdropdown:hover .headerdropdown-content {
+  display: block;
+}
+.headerdropdown-content-scroll {
+  height: 365px;
+  overflow-y: scroll;
+  animation: dropdown-fade-in 0.8s forwards;
+}
+
+.headerdropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.headerdropdown-content-scroll::-webkit-scrollbar {
+  width: 2px; /* Set the width of the scrollbar */
+}
+
+.headerdropdown-content-scroll::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1; /* Set the color of the scrollbar thumb */
+}
+
+.headerdropdown-content-scroll::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the color of the scrollbar track */
+}
+
+.headerdropdown-content a:hover {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+@keyframes dropdown-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* cartdropdown */
+/* wishdropdown */
+.wishdropdown {
+  position: relative;
+}
+
+.wishdropdown-button {
+  color: #fff;
+  padding: 0px 8px;
+  border: none;
+  cursor: pointer;
+}
+.wishdropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 350px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  z-index: 1;
+  top: 97%;
+  left: -150px;
+  border-radius: 8px;
+  display: none;
+}
+.wishdropdown:hover .wishdropdown-content {
+  display: block;
+}
+.wishdropdown-content-scroll {
+  height: 365px;
+  overflow-y: scroll;
+  animation: dropdown-fade-in 0.8s forwards;
+}
+.wishdropdown-content-scroll::-webkit-scrollbar {
+  width: 2px; /* Set the width of the scrollbar */
+}
+
+.wishdropdown-content-scroll::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1; /* Set the color of the scrollbar thumb */
+}
+
+.wishdropdown-content-scroll::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Set the color of the scrollbar track */
+}
+
+.wishdropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.wishdropdown-content a:hover {
+  background-color: grey;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 780px) {
+  .control svg {
+    fill: black;
+  }
+  .user-control svg {
+    fill: black;
+  }
+  .control__bar__container {
+    justify-content: center;
+  }
+}

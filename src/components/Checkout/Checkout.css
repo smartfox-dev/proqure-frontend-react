@@ -1,0 +1,417 @@
+.cardbanktotal{
+  margin-top: 10px;
+  display: inline-grid;
+  background: #f1f1f1;
+  padding: 5px 20px;
+  width: 100%;
+}
+
+.paymentdatepicker {
+  padding: 1rem 1rem 0rem 2rem;
+}
+
+.paymentdatepicker input:focus,
+.paymentdatepicker input:focus-visible,
+.paymentdatepicker input:hover {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.subpayoptionclass {
+  padding: 10px 15px 10px 10px;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.solutions_item4colom {
+  width: 25%;
+  float: left;
+}
+.pendingicon span{
+  background:#fed700;
+  color:black;
+  top: 5px!important;
+  right: 3px!important;
+}
+
+.checkoutus_sec {
+  /* background-color: #F6FAFF; */
+  position: relative;
+}
+
+/* .checkoutus_sec::before {
+    content: "";
+    position: absolute;
+    background-color: #f6faff;
+    width: 100%;
+    height: 445px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} */
+.checkout-createaccount span {
+  color: black;
+  font-family: "InterBold";
+  font-size: 17px;
+  font-style: normal;
+  line-height: normal;
+}
+.checkout_wrapper {
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 40px;
+}
+
+.checkout_wrapper .col_left {
+  width: 50%;
+  float: left;
+}
+
+.checkout_wrapper .col_right {
+  width: 47%;
+  float: right;
+  margin-top: 90px;
+}
+.checkout-options-check-amout {
+  color: #000;
+  font-family: "InterBold";
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+.check__amount__value{
+  color: #04AA6D;
+  font-family: "InterBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+  display: flex;
+}
+.checkout_wrapper .heading h1 {
+  font-size: 17px;
+  margin: 0;
+  color: #242424;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+}
+.checkout_wrapper .heading a {
+  color: #04aa6d;
+}
+
+.checkout_wrapper .heading p {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #222222;
+  line-height: 26px;
+  margin: 0;
+  padding: 10px 0px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.checkout_form {
+  margin-top: 40px;
+}
+
+.checkout_form_droup input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 15px;
+  height: 50px;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  outline: none;
+}
+.checkout_star {
+  color: red;
+  font-size: 15px;
+}
+.input_field {
+  width: 100%; /* Adjust the width as needed */
+}
+.checkout_form_droup input:focus {
+  border: 1px solid #6abb9d;
+  box-shadow: 0px 0px 5px 1px rgb(133 239 189 / 50%);
+}
+
+.checkout_form_droup button {
+  background: #04aa6d;
+  font-size: 17px;
+  color: #fff !important;
+  border-radius: 6px;
+  padding: 15px 25px;
+  margin-right: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+.checkout_form_droup textarea {
+  box-sizing: border-box;
+  width: 100%;
+  background: #fafafa;
+  border: 1px solid #efefef;
+  padding: 5px 15px;
+  height: 200px;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.checkout_form_droup textarea:focus {
+  border: 1px solid #6abb9d;
+  box-shadow: 0px 0px 5px 1px rgb(133 239 189 / 50%);
+}
+
+.checkout_form_droup input::placeholder {
+  color: #444444;
+}
+
+.left_input {
+  float: left;
+  width: 48% !important;
+}
+
+.right_input {
+  float: right;
+  width: 48% !important;
+}
+
+.sendmessage span {
+  transition: all 0.3s ease-in-out;
+}
+.sendmessage:hover span {
+  transform: translateX(0.45rem);
+}
+
+.checkout_wrapper .heading h3 {
+  font-family: "InterBold";
+  max-width: 400px;
+  margin-top: 2rem;
+  width: 100%;
+  text-align: left;
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  line-height: normal;
+}
+.checkout_options {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #faf6f1;
+  border-radius: 10px;
+}
+.checkout-options-horizontal-line {
+  border: none;
+  height: 1px;
+  background-color: #e6e6e6;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.checkout-options-radio {
+  width: 13px;
+  height: 13px;
+  border: none;
+  outline: none;
+  background: white;
+  align-items: center;
+  align-self: center;
+  display: flex;
+}
+.orderoptionsselect {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.ordershipradio {
+  margin: 2px 0px 2px 15px;
+}
+.ordershipradio.checked {
+  color: rgb(13, 189, 124) !important;
+}
+.checkout-options-radio:focus,
+.checkout-options-radio:hover,
+.checkout-options-radio:active,
+.checkout-options-radio:focus-visible {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.checkout-options-check {
+  width: 100%;
+  display: inline-grid;
+}
+.checkout-options-shipping {
+  display: flex;
+  align-self: center;
+}
+.checkout-options-shipping span {
+  font-family: "InterBold";
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+.checkout-options-general {
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.proceed_payment_button {
+  width: 100%;
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  margin-top: 2rem;
+}
+.checkout-options-flat {
+  font-family: "InterBold";
+}
+.checkout-options-flat span {
+  color: #04aa6d;
+}
+.checkout-options-local {
+  font-family: "InterBold";
+}
+.checkout-options-local span {
+  color: #04aa6d;
+}
+.checkout-options-shippingto {
+}
+.checkout-options-shippingto span {
+  font-family: "InterBold";
+}
+.checkout-options-change {
+  color: #04aa6d;
+}
+.check__amount__label {
+  text-align: center;
+  font-family: "InterBold";
+  color: black;
+  padding: 25px;
+  font-size: 25px;
+  font-style: normal;
+  line-height: normal;
+}
+.checkout-options-check-product-subtotal {
+  font-family: "InterBold";
+  color: #878787;
+  font-size: 17px;
+  font-style: normal;
+  line-height: normal;
+  padding: 5px 0;
+}
+.checkout-options-ratio-text {
+  color: black;
+  font-family: "InterBold";
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+  margin: 1rem 0;
+}
+.check__subtotal__product__value {
+  color: #878787;
+  font-size: 17px;
+  font-style: normal;
+  font-family: "InterBold";
+  line-height: normal;
+}
+.checkout-options-check-subtotal {
+  font-family: "InterBold";
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+.check__subtotal__value {
+  color: #04aa6d;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "InterBold";
+  line-height: normal;
+}
+
+.checkout-options-check-amount {
+  display: flex;
+  align-self: center;
+  font-family: "InterBold";
+}
+.proceed-checkout-total {
+  padding: 15px;
+  background: white;
+  border-radius: 3px;
+}
+.checkout-total-subheader {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-family: "InterBold";
+  line-height: normal;
+}
+.checkout-pay-label {
+  margin: 0;
+  margin-right: 5px !important;
+}
+.check__amount__label span {
+  font-size: 15px;
+}
+.checkout-web-condition {
+  color: #04AA6D;
+  font-family: "Inter";
+  font-size: 17px;
+  font-style: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 767px) and (min-width: 200px) {
+  .checkout_wrapper {
+    padding: 50px 20px;
+  }
+
+  .checkout_wrapper .col_left {
+    width: 100%;
+    float: none;
+  }
+
+  .checkout_wrapper .col_right {
+    width: 100%;
+    float: none;
+    margin-top: 70px;
+  }
+
+  .checkout_wrapper .heading h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .checkout_wrapper .heading h3 {
+    font-size: 14px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .left_input {
+    float: none;
+    width: 100% !important;
+  }
+
+  .right_input {
+    float: none;
+    width: 100% !important;
+  }
+}

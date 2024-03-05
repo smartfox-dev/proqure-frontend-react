@@ -1,0 +1,107 @@
+
+.login__card__container {
+    width:550px;
+    margin: auto;
+    box-shadow: 0px 1px 7px -4px;
+}
+
+.login__card {
+    height: 100%;
+    margin: auto;
+    padding:20px;
+    border-radius: 5px;
+    border: 1px solid #e9ecef;
+}
+
+.login__header {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.login__header h1 {
+    color: #000;
+    font-family: "InterBold";
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.login__inputs {
+    height: 60%;
+    width: 100%;
+}
+
+.input__container {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.input__label {
+    font-family: "InterBold";
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.login__input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__button__container {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__forgot__password{
+    color: #04AA6D;
+    font-family: "InterBold";
+    font-size: 17px;
+    font-style: normal;
+    line-height: normal;    
+}
+
+.loginremeber{
+    margin-top: 1rem;
+}
+.login__button {
+    height: 45px;
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: #FFE26E;
+    border-color: #FFE26E;
+    border-style: dashed;
+    font-weight:bold;
+}
+
+.login__other__actions {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login__new__account{
+    font-family: "InterBold";
+}
+@media only screen and (max-width: 768px) {
+    .login__card__container{
+        width: auto!important;
+    }
+}

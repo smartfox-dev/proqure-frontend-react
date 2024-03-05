@@ -1,0 +1,50 @@
+.multi-careousel-image{
+  width: 130px;
+  height: 150px;
+}
+.multiitem-careousel-parent{
+  text-align: center;
+}
+.multiitem-careousel-parent:hover{
+  cursor: pointer;
+}
+.carousel-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.carousel-button {
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  font-size: 24px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-dots {
+  display: flex;
+}
+
+.carousel-dot {
+  height: 11px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #cccccc;
+  margin: 0 5px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.carousel-dot.active {
+  background-color: #04AA6D;
+  width: 35px;
+  border-radius: 10px;
+}
+.multiitem-name{
+  text-align: left;
+}

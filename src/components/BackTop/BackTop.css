@@ -1,0 +1,30 @@
+.backtotop.show-scroll {
+    opacity: 1;
+}
+
+.backtotop {
+    position: fixed;
+    display: flex;
+    bottom: 55px;
+    right: 21px;
+    z-index: 10000;
+    font-size: 36px;
+    text-shadow: none;
+    text-align: center;
+    background: #04AA6D;
+    width: 65px;
+    height: 65px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50px;
+    border: none;
+    background: rgba(0,0,0,.4);
+}
+
+.backtotop:hover{
+    transform: translateY(-10px);
+}
+.backtotopsvg{
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+}

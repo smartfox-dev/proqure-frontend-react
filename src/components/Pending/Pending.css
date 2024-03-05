@@ -1,0 +1,87 @@
+.each-slide-effect>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  height: 800px;
+}
+
+.react-slideshow-wrapper{
+  box-shadow: 0 0px 20px 18px rgb(0 0 0 / 13%), 0 1.2px 3.6px 0 rgb(0 0 0 / 11%);
+}
+.react-slideshow-container{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.react-slideshow-container .default-nav{
+  display: none;
+}
+.landingletter{
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.landtitle1{
+  font-family: revert;
+  font-size: 4.5rem;
+}
+.landtitle2{
+  font-family: revert;
+  font-size: 4.5rem;
+}
+.landdescription{
+  max-width: 750px;
+  font-size: 2.3rem;
+}
+.pending__header__big {
+  font-family: "InterBold";
+  width: 53%;
+  font-size: 4rem;
+  background:rgba(0,0,0,.4);
+  border-radius: 30px;
+  padding: 50px;
+  color: white;
+  opacity: 0.6;
+  /* filter: blur(1px); */
+
+}
+.pending__header__big span{
+  font-size: 6rem;
+  color: #D9EEE1!important;
+}
+.pendinglettercontainer{
+  position: absolute;
+  top: 280px;
+  left: 100px;
+}
+@media (min-width: 1400px){
+  .pending-wrapper_header {
+      max-width: 1250px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .pendinglettercontainer{
+    left: 0;
+  }
+  .pending__header__big {
+      width: 65%;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 3rem;
+  }
+}
+@media screen and  (max-width: 860px) {
+  .pending__header__big{
+    font-size: 2.5rem;
+  }
+  .pending__header__big span{
+    font-size: 3rem;
+  }
+  .pendinglettercontainer{
+    top: 300px;
+  }
+}

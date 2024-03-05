@@ -1,0 +1,251 @@
+.customrating__avatar {
+  margin-right: 2.5rem;
+}
+.each__review__item {
+  width: 87%;
+}
+.custom__total_detail__name {
+  padding: 10px 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.customrating__avatar img {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+.custom__total_detail__info {
+  padding: 15px 0;
+  color: #272727;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.costom-rating-progressbar-body {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.custom-rating-progressbar-element {
+  margin: 5px 0px 0px 5px;
+  align-items: center;
+  display: flex;
+}
+.custom-rating-progressbar {
+  width: 75%;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.custom-rating-body {
+}
+.customratingimg {
+  margin: 2rem 3rem 3rem 0rem;
+}
+.customratingimg span {
+  font-size: 3.7rem;
+  display: flex;
+  justify-content: center;
+  color: #ffa000;
+  font-family: "InterBold";
+  letter-spacing: 10px;
+}
+.customratingimg img {
+  width: 140px;
+}
+.rating-value {
+  color: #ffa000;
+}
+.rating-horizontal-line {
+  border: none;
+  height: 1px;
+  background-color: #ffa000;
+  width: 43px;
+}
+.custom__user__date {
+  margin-left: 0.5rem;
+  color: #bbbbbb;
+}
+.product__customrating__product {
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-self: center;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.customrating__img__container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.customrating__header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.customrating__header__line {
+  height: 50%;
+  width: 2px;
+  background-color: rgb(0, 0, 0);
+}
+
+.customrating__header {
+  height: 100%;
+  display: flex;
+  font-family: "InterBold";
+  color: black;
+  font-size: 30px;
+  font-style: normal;
+  line-height: normal;
+}
+.custom-add-rating {
+  display: flex;
+  margin: 1rem 0;
+}
+.custom-add-rating span label {
+  margin-bottom: 0;
+  display: flex;
+}
+.custom_add_form_droup input {
+  background-color: white;
+  border: 1px solid #d6d6e7;
+  border-radius: 20px;
+  box-shadow: unset;
+  width: 100%;
+  height: 55px;
+}
+.customrating__detail__container {
+  width: 80%;
+  height: 40%;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.custom-add-general-star {
+  color: red;
+  padding: 5px;
+}
+.custom_add_form_droup {
+  width: 100%;
+}
+.custom-add-general {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.custom-add-generaltext {
+  font-size: 21px;
+  font-family: "InterBold";
+  width: 230px;
+}
+.custom_add_form_droup textarea {
+  box-sizing: border-box;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #efefef;
+  padding: 5px 15px;
+  height: 130px;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  outline: none;
+}
+.custom_add_form_droup textarea:hover {
+  border: 2px solid #6abb9d;
+}
+.custom-add-generaltext {
+  display: flex;
+  font-size: 22px;
+  font-family: "InterBold";
+}
+.custom-add-yourrating{
+  margin-top: 5px;
+}
+.custom-yourrating {
+  margin-right: 4.5rem;
+  color: #000;
+  font-size: 25px;
+  font-style: normal;
+  font-family: "InterBold";
+  line-height: normal;
+}
+.customaddbutton {
+  background-color: #04aa6d;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  color: white;
+  padding: 7px 25px;
+  margin: 1px;
+  align-self: center;
+  display: flex;
+  font-size: 15px;
+  margin-right: 15px;
+}
+.custom-detauk-add-check span {
+  font-size: 18px;
+  font-weight: bo;
+}
+
+.customrating__detail {
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 20px;
+}
+
+.customrating__highlights__header {
+  height: 100%;
+  display: flex;
+  font-family: "InterBold";
+  color: black;
+  margin-top: 3rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.customrating__specifics__container {
+  width: 90%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.customrating__detail__p {
+  margin-top: 1.5rem;
+}
+
+.customrating__highlights__content {
+  margin-top: 3rem;
+  display: flex;
+}
+.custom-list li::marker {
+  font-size: x-large;
+}
